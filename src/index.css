@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+html,body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.request-btn {
+  background: linear-gradient(0deg, #475569, #475569),
+    linear-gradient(0deg, #334155, #334155);
+  border: 1px solid #475569;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.avenir{
+  font-family:'Avenir LT W01 55 Roman';
+}
